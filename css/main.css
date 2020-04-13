@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ebebeb;
+	font-size: 10px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	width: 100%;
+	font-size: 25px;
+	border-bottom: 2px solid rgb(224, 224, 224);
+}
+
+.header i {
+	padding: 10px;
+}
+
+.content {
+	padding: 8px;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto 0 auto;
+}
+.stories {
+ display: flex;	
+}
+.stories__profile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	
+}
+
+.stories__profile img{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.20);
+}
+.stories__profile i{
+	padding: 4px;
+	font-weight: bold;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+.feed {
+margin-bottom: 55px;
+}
+
+.card {
+	box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.20);
+	border-radius: 10px;
+	margin: 15px 0;
+
+}
+.card__header {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.card__header__profile h3{
+	margin: 2px 0 0 0;
+	padding: 5px 2px;
+	display: flex;
+	align-items: center;
+}
+
+.card__header__profile {
+	display: flex;
+	flex-direction: row;
+}
+
+.card__header__profile img {
+	padding: 5px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.card__header i{
+	margin-right: 2px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+
+
+/* img */
+
+.card__img img{
+	width: 100%;
+	
+}
+
+/* actions */
+
+.card__actions {
+	display: flex;
+	width: 100%;
+	font-size: 25px;
+	height: 30px;
+	justify-content: space-around;
+}
+.card__actions a{
+	color: #474747;
+	padding: 3px 10px 3px 8px;
+}
+
+/* likes */
+.card__likes {
+	padding: 5px 10px ;
+}
+
+/* comments */
+.card__comments {
+	background: #e0e0e0;
+	border-radius: 35px;
+	font-weight: bold;
+	color: rgb(124, 124, 124);
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+}
+.card__comments div {
+	padding-left: 10px;
+}
+.card__comments img{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+
+/* info */
+.card__info {
+	padding: 8px 10px ;
+}
+/* /////////////////////////////////////////////////////////////// */
+
+.menu {
+	width: 100%;
+	
+	padding: 0;
+	height: 50px;
+	background: white;
+	box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.20);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	align-items: center;
+}
+
+.menu ul{
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	font-size: 25px ;
+	
+	
+}
+.menu__item {
+	list-style: none;
+	padding: 5px;
+}
+
+.menu__item--selected {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
